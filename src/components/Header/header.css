@@ -1,0 +1,43 @@
+.header {
+    background-color: #F0386B;
+    color: #F3F3F4;
+    padding: 10px;
+    display: flex;
+    font-family: Fredoka, sans-serif;
+}
+
+.headerContainer {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoArea {
+    flex: 5;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logoImg {
+    height: 50px;
+    width: auto;
+    margin-right: 20%;
+}
+
+.hamburgerIconDiv {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.hamburgerIcon {
+    font-size: 3rem;
+}
+
+.disappear {
+    transition: transform 0.5s ease-in-out;
+    transform: scale(0);
+}
