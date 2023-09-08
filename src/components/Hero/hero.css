@@ -21,9 +21,38 @@
     font-family: Shrikhand;
     font-size: 50px;
     margin-bottom: 2rem;
+    letter-spacing: 2px;
 }
 
 .heroP {
     font-family: Ultra;
     font-size: 2rem;
+}
+
+.btnContainer {
+    margin-top: 5rem;
+    display: flex;
+    width: 700px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnLarge {
+    background: transparent;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: Fredoka;
+    color: inherit;
+    font-weight: bold;
+    width: 300px;
+    border: none;
+    outline: 1px white solid;
+    text-shadow: 0 0 5px black;
+    transition: all 0.1s ease-in-out;
+}
+
+.btnLarge:hover {
+    background-color: #F3F3F4;
+    color: #14110F;
+    text-shadow: 0 0 5px white;
 }
