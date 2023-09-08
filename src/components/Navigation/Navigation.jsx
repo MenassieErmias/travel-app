@@ -7,18 +7,18 @@ const Navigation = ({ displayNav, setDisplayNav }) => {
         <div className={displayNav ? 'nav' : 'nav closed'}>
             <nav className='navContainer'>
                 <ul className="navList">
-                    <li className="navItem">
-                        <a href="#" className="navLink">
+                    <li className="navItem" onClick={() => setDisplayNav(false)}>
+                        <a href="#home" className="navLink">
                             Home
                         </a>
                     </li>
-                    <li className="navItem">
-                        <a href="#" className="navLink">
+                    <li className="navItem" onClick={() => setDisplayNav(false)}>
+                        <a href="#destinations" className="navLink">
                             Destinations
                         </a>
                     </li>
-                    <li className="navItem">
-                        <a href="#" className="navLink">
+                    <li className="navItem" onClick={() => setDisplayNav(false)}>
+                        <a href="#Team" className="navLink">
                             Team
                         </a>
                     </li>

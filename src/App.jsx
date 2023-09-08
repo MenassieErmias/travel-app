@@ -1,6 +1,7 @@
 // IMPORT COMPONENTS
 import Header from "./components/Header/Header";
 import Navigation from "./components/Navigation/Navigation";
+import Home from "./components/pages/Home";
 
 // IMPORT REACT
 import { useState } from "react";
@@ -10,7 +11,7 @@ import { useState } from "react";
 function App() {
   // STATE
   const [displayNav, setDisplayNav] = useState(false);
-  console.log(`display Nav state: ${displayNav}`)
+  console.log(`display Nav state: ${displayNav}`);
   return (
     <div className="app">
       {
@@ -21,6 +22,7 @@ function App() {
             displayNav={displayNav}
           />
       }
+      <Home />
     </div>
   );
 }
