@@ -8,6 +8,27 @@
     transition: all 0.5s ease-in-out;
     transform: translateY(0);
     z-index: 1;
+    animation: popIn 1s ease-in-out 0s 1 forwards;
+}
+
+@keyframes popUp {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes popIn {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .closed {
@@ -55,6 +76,20 @@
     color: #34312D;
 }
 
+.closeNavAnchor {
+    color: inherit;
+}
+
+.closeNavAnchor:hover,
+.closeNavAnchor:focus {
+    color: #F3F3F4ee;
+}
+
+.closeNavAnchor:active,
+.closeNavAnchor:visited {
+    color: inherit;
+}
+
 .closeNavDiv {
     /* border: 1px solid white; */
     height: max-content;
@@ -62,4 +97,5 @@
 
 .closeNavIcon {
     font-size: 4rem;
+
 }

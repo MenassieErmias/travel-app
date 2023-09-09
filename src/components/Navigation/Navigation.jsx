@@ -24,9 +24,11 @@ const Navigation = ({ displayNav, setDisplayNav }) => {
                     </li>
                 </ul>
             </nav>
-            <div className="closeNavDiv" >
-                <AiOutlineCloseCircle className='closeNavIcon' onClick={() => setDisplayNav(false)} />
-            </div>
+            <a className='closeNavAnchor' href='#home'>
+                <div className="closeNavDiv" >
+                    <AiOutlineCloseCircle className='closeNavIcon' onClick={() => setDisplayNav(false)} />
+                </div>
+            </a>
         </div>
     )
 }
