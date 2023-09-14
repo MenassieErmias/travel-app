@@ -1,0 +1,14 @@
+.destinations {
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(to bottom, #0061ff, #60efff);
+    display: flex;
+    align-items: center;
+}
+
+.cardsContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    overflow-x: auto;
+}

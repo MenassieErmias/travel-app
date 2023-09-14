@@ -16,8 +16,8 @@ const Header = ({ displayNav, setDisplayNav }) => {
                         </h1>
                     </div>
                 </div>
-                <div className={displayNav ? "hamburgerIconDiv disappear" : "hamburgerIconDiv"} onMouseEnter={() => setDisplayNav(true)} >
-                    <RxHamburgerMenu className='hamburgerIcon' />
+                <div className={displayNav ? "hamburgerIconDiv disappear" : "hamburgerIconDiv"} >
+                    <RxHamburgerMenu className='hamburgerIcon' onMouseEnter={() => setDisplayNav(true)} />
                 </div>
             </div>
         </header>

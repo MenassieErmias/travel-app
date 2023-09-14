@@ -18,7 +18,7 @@ const Navigation = ({ displayNav, setDisplayNav }) => {
                         </a>
                     </li>
                     <li className="navItem" onClick={() => setDisplayNav(false)}>
-                        <a href="#Team" className="navLink">
+                        <a href="#team" className="navLink">
                             Team
                         </a>
                     </li>

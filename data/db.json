@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "name": "New York",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/800px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg",
+            "description": "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.",
+            "budgetInDollars": 3000
+        },
+        {
+            "name": "Las Vegas",
+            "image": "https://a.cdn-hotels.com/gdcs/production37/d1139/a8a147d0-c31d-11e8-825c-0242ac110006.jpg",
+            "description": "Las Vegas, often known simply as Vegas, is the 25th-most populous city in the United States, the most populous city in the state of Nevada, and the county seat of Clark County. The Las Vegas Valley metropolitan area is the largest within the greater Mojave Desert, and 2nd-largest in the Southwestern United States",
+            "budgetInDollars": 5000
+        },
+        {
+            "name": "Hawaii",
+            "image": "https://www.gohawaii.com/sites/default/files/hero-unit-images/12845-p1bd4nb8t912gc1ic74nd14g2ru.jpg",
+            "description": "Hawaii is an island state in the Western United States, about 2,000 miles from the U.S. mainland in the Pacific Ocean. It is the only U.S. state outside North America, the only state that is an archipelago, and the only state in the tropics",
+            "budgetInDollars": 8000
+        },
+        {
+            "name": "Dubai",
+            "image": "https://assets.cntraveller.in/photos/6470565df0771fd865ff76b4/4:3/w_4608,h_3456,c_limit/Emirates%20Offering%20Free%20Hotel%20Stays%20This%20Summer%20to%20Passengers%20Flying%20to%20Dubai_emma-harrisova-UDsO83Ts6tQ-unsplash.jpg",
+            "description": "Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks.",
+            "budgetInDollars": 10000
+        }
+    ]
+}

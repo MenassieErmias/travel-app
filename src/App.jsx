@@ -2,6 +2,7 @@
 import Header from "./components/Header/Header";
 import Navigation from "./components/Navigation/Navigation";
 import Home from "./components/pages/Home";
+import Footer from "./components/Footer/Footer";
 
 // IMPORT REACT
 import { useState } from "react";
@@ -23,6 +24,7 @@ function App() {
           />
       }
       <Home />
+      <Footer />
     </div>
   );
 }

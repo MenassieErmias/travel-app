@@ -1,0 +1,25 @@
+.card {
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px black;
+}
+
+.cardContainer {
+    flex: 1;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    font-family: Fredoka;
+    overflow: auto;
+    text-shadow: 0 0 1px black;
+}
+
+.cardImg {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
