@@ -8,9 +8,21 @@ const Destinations = () => {
 
     const fetchData = async () => {
         try {
-            const response = await fetch("http://localhost:5500/data/");
+            const response = await fetch(
+                "https://api.jsonbin.io/v3/b/650713322639b33ebfa7d297",
+                {
+                    method: "GET",
+                    withCredentials: true,
+                    headers: {
+                        "X-ACCESS-KEY": "$2b$10$NzCtzXwaCoxnRsTshnUixuW9T.QE56mg1lIed1/Z4yGgsCHqjZz.i",
+                        "Content-type": "application/json"
+                    }
+                }
+            );
+            // console.log(`Response ${response}`)
             const data = await response.json();
-            setDestinations(data);
+            setDestinations(data.record.data);
+            console.log(`Destination: ${JSON.stringify(data)}`)
         } catch (err) {
             console.error(err.message)
         }
@@ -22,6 +34,7 @@ const Destinations = () => {
 
     useEffect(() => {
         console.log(`Destinations: ${typeof (destinations)}`)
+        console.log(`Destinations: ${destinations}`)
     }, [destinations])
 
     return (
